@@ -23,4 +23,24 @@ create table alunos(
 insert into alunos
 	values(1,'99999999999','Savio Costa', 29);
 	values(2,'99999999989','Fernanda Genu', 26);
-	
+
+ update alunos set
+
+ update alunos set cpf='123421831' where id=2;
+
+  
+
+ pra consulta:
+ SELECT * FROM alunos;
+
+ ou
+
+ SELECT cpf,nome FROM alunos;
+
+ SELECT cpf,nome,idade FROM alunos order by idade desc;
+
+ 
+Crie a tabela professores
+id, nome, cpf, telefone
+dois update
+dois delete
